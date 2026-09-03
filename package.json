@@ -1,0 +1,20 @@
+{
+  "name": "imax-whatsapp-server",
+  "version": "1.0.0",
+  "description": "Backend de notificaciones WhatsApp (WAHA) para IMAX - Imagenes y Especialistas",
+  "main": "server.js",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "recordatorio": "node recordatorio.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "node-fetch": "^2.7.0"
+  }
+}
